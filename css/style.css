@@ -892,6 +892,7 @@ input[type="checkbox"]:checked +
 input[type="checkbox"]:checked + 
 .modal-form-agree-label .modal-form-checkbox .agree-icon {
     opacity: 1;
+    fill: #F4F4FD;;
 }
 
 .btn {
