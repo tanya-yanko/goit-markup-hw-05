@@ -887,17 +887,17 @@ opacity: 0;
 transition: border, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
-input[type="checkbox"]:checked + 
-.modal-form-agree-label .modal-form-checkbox {
+input[type="checkbox"]:checked + .modal-form-checkbox {
     background-color: #404BBF;
     border: none;
+    fill: #F4F4FD;
     
 }
 
 input[type="checkbox"]:checked + 
 .modal-form-agree-label .modal-form-checkbox .agree-icon {
     opacity: 1;
-    fill: #F4F4FD;;
+    
 }
 
 .btn {
