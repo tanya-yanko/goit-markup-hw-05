@@ -725,9 +725,13 @@ display: block;
     color: #8e8f99;
 
 }
-.modal-form-wrapper {
+.modal-form-icon-wrapper {
+    display: flex;
     position: relative;
-
+    
+}
+.modal-form-wrapper {
+   
 }
 .modal-form-input {
     padding: 11px 38px;
