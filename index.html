@@ -410,15 +410,16 @@
             </div>
     
    <div class="footer-input">
+    <p class="footer-form-name">Subscribe</p>
     <form> 
-            <p class="footer-form-name">Subscribe</p>
           <div class="footer-form-wrapper">
-          <input class="footer-form-input" type="email" name="email" id="email" placeholder="Email"/>
+            <label for="email">
+          <input class="footer-form-input" type="email" name="email" id="email" placeholder="E-mail"/>
            <button class="footer-form-button" type="button">Subscribe 
             <svg class="footer-input-icon" width="24" height="24">
              <use href="./images/icons.svg#icon-Frame"></use>
             </svg>
-            <label for="email">
+         
 
             </label>
         </button>
@@ -429,7 +430,7 @@
      </div>
 </footer>
 
-<div class="backdrop is-open">
+<div class="backdrop ">
     <div class="modal">
         <button class="close-button" type="button">
             <svg class="close-icon" width="8" height="8">
@@ -453,9 +454,8 @@
                 
                 </div>
 
-                
-                <label class="modal-form-label" for="user-phone">Phone</label>
                 <div class="modal-form-icon-wrapper">
+                    <label class="modal-form-label" for="user-phone">Phone</label>
                 <input
                     class="modal-form-input" 
                     type="tel" 
@@ -465,11 +465,9 @@
                      <use href="./images/icons.svg#icon-phone"></use>
                     </svg>
                 </div>
-               
-
-                
-                <label class="modal-form-label" for="user-email">Email</label>
+       
                 <div class="modal-form-icon-wrapper">
+                    <label class="modal-form-label" for="user-email">Email</label>
                 <input
                     class="modal-form-input" 
                     type="email" 
@@ -480,7 +478,6 @@
                     </svg>
                 </div>
                
-
                 <div class="modal-form-wrapper">
                     <label class="modal-form-label" for="user-comment">Comment</label>
                     <textarea class="modal-form-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
@@ -488,8 +485,8 @@
 
 
                 <div class="modal-form-agree">
-                  <input class="visually hidden" type="checkbox" name="user-agree" id="user-agree" checked>
-                  <label class="modal-form-agree-label" for="user-agree">
+                  <input class="modal-form-agree-input visually hidden" type="checkbox" name="user-agree" value="true" id="user-privacy " checked>
+                  <label class="modal-form-agree-label" for="user-privacy">
                     <span class="modal-form-checkbox">
                         <svg class="agree-icon" width="10" height="8">
                          <use href="./images/icons.svg#icon-Vector"></use>
